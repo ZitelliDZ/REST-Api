@@ -1,0 +1,14 @@
+						Method		Body
+http://localhost:3000/api/usuarios		GET 					
+http://localhost:3000/api/usuarios		POST	{
+							  "idUsuario": 4,
+							  "Nombre": "Diego",
+							  "Apellido": "Zitelli",
+							  "Email": "zitelli.dz@gamil.com",
+							  "Estado": "Hey!"
+							 }		
+http://localhost:3000/api/usuarios		PUT		mismo body		
+http://localhost:3000/api/usuarios/4		DELETE					
+
+
+http://localhost:3000/api/materias/post		Trae la consulta de    https://jsonplaceholder.typicode.com/posts
